@@ -76,6 +76,7 @@ export default function NavMobile(props: any) {
                                             <li>
                                                 <a href="https://www.linkedin.com/in/john-andrew-batulan-692419108"
                                                     target='_blank' 
+                                                    rel="noreferrer"
                                                     onClick={() =>{onClose('linkedin')}}
                                                     className={`
                                                         ${currentPage === 'linkedin' ? 'dark:bg-gray-700 dark:text-white' : ''}
@@ -90,6 +91,7 @@ export default function NavMobile(props: any) {
                                             <li>
                                                 <a href="https://github.com/johnbatzz"
                                                     target='_blank' 
+                                                    rel="noreferrer"
                                                     onClick={() =>{onClose('github')}}
                                                     className={`
                                                         ${currentPage === 'github' ? 'dark:bg-gray-700 dark:text-white' : ''}

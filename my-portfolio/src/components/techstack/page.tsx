@@ -103,6 +103,7 @@ export default function TechStacks() {
                                 <a 
                                     href={techstack.docsUrl}
                                     target='_blank'
+                                    rel="noreferrer"
                                     className="text-yellow-600"
                                 >
                                     <img 

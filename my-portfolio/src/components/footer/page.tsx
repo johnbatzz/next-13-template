@@ -17,6 +17,7 @@ export default function Footer() {
                         <a 
                             href='mailto:johnmarcl25@gmail.com' 
                             target='_blank'
+                                rel="noreferrer"
                             className="text-yellow-600"
                         >
                             johnmarcl25@gmail.com
@@ -30,6 +31,7 @@ export default function Footer() {
                             <a 
                                 href="https://www.linkedin.com/in/john-andrew-batulan-692419108"
                                 target='_blank'
+                                rel="noreferrer"
                                 className="text-yellow-600"
                             >
                                 LinkedIn
@@ -39,6 +41,7 @@ export default function Footer() {
                             <a 
                                 href="https://twitter.com/johnmarcl"
                                 target='_blank'
+                                rel="noreferrer"
                                 className="text-yellow-600"
                             >
                                 Twitter
@@ -48,6 +51,7 @@ export default function Footer() {
                             <a 
                                 href="https://www.facebook.com/john.batzz"
                                 target='_blank'
+                                rel="noreferrer"
                                 className="text-yellow-600"
                             >
                                 Facebook
@@ -57,6 +61,7 @@ export default function Footer() {
                             <a 
                                 href="https://www.pinterest.ph/johnbatzz"
                                 target='_blank'
+                                rel="noreferrer"
                                 className="text-yellow-600"
                             >
                                 Pinterest

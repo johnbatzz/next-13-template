@@ -90,6 +90,7 @@ export function Nav(){
                             <li>
                                 <a href="https://www.linkedin.com/in/john-andrew-batulan-692419108" 
                                     target='_blank'
+                                    rel="noreferrer"
                                     onClick={() => onClose('linkedin')}
                                     className={`
                                         ${currentPage === 'linkedin' ? 'md:dark:text-white' : 'dark:text-gray-400'}
@@ -104,6 +105,7 @@ export function Nav(){
                             <li>
                                 <a href="https://github.com/johnbatzz" 
                                     target="_blank" 
+                                    rel="noreferrer"
                                     onClick={() => onClose('github')}
                                     className={`
                                         ${currentPage === 'github' ? 'md:dark:text-white' : 'dark:text-gray-400'}
