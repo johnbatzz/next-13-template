@@ -1,0 +1,63 @@
+Arguments: 
+  /Users/gme/.nvm/versions/node/v17.5.0/bin/node /Users/gme/.nvm/versions/node/v17.5.0/bin/yarn add @headlessui
+
+PATH: 
+  /usr/local/opt/php@7.2/sbin:/usr/local/opt/php@7.2/bin:/usr/local/sbin:/usr/local/opt/php@7.4/sbin:/usr/local/opt/php@7.4/bin:/Users/gme/.nvm/versions/node/v17.5.0/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/php@7.2/sbin:/usr/local/opt/php@7.2/bin:/usr/local/sbin:/usr/local/opt/php@7.4/sbin:/usr/local/opt/php@7.4/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  17.5.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@headlessui: Request "https://registry.yarnpkg.com/@headlessui" returned a 405
+      at Request.params.callback [as _callback] (/Users/gme/.nvm/versions/node/v17.5.0/lib/node_modules/yarn/lib/cli.js:66154:18)
+      at Request.self.callback (/Users/gme/.nvm/versions/node/v17.5.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/Users/gme/.nvm/versions/node/v17.5.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/Users/gme/.nvm/versions/node/v17.5.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1342:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "my-portfolio",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@next/font": "13.1.6",
+      "@types/node": "18.13.0",
+      "@types/react": "18.0.28",
+      "@types/react-dom": "18.0.11",
+      "eslint": "8.34.0",
+      "eslint-config-next": "13.1.6",
+      "next": "13.1.6",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "typescript": "4.9.5"
+    },
+    "devDependencies": {
+      "autoprefixer": "^10.4.13",
+      "postcss": "^8.4.21",
+      "tailwindcss": "^3.2.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
