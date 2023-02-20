@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { useState } from "react"
 
 export default function TechStacks() {
     const techstacks = [
@@ -94,6 +95,8 @@ export default function TechStacks() {
         },
     ]
 
+    const [ratio, setRatio] = useState(16/9);
+
     return (
         <>
             <div className="px-[50px] my-[50px]">
@@ -111,8 +114,11 @@ export default function TechStacks() {
                                         src={techstack.logoUrl} 
                                         alt={techstack.name} 
                                         width={100}
-                                        height={100}
-                                        className="rounded-sm w-[100px] h-[100px]"
+                                        height={100 / ratio}
+                                        onLoadingComplete={({ naturalWidth, naturalHeight }) => {
+                                            setRatio(naturalWidth / naturalHeight);
+                                        }}
+                                        className="rounded-sm"
                                     />
                                 </a>
                             </li>
