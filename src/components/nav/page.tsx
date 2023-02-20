@@ -19,14 +19,14 @@ export function Nav(){
                 className="sticky shadow-xl top-0 z-40 bg-white border-black-200 dark:bg-black dark:border-black"
             >
                 <div 
-                    className="container h-16 flex flex-wrap items-center justify-between mx-auto"
+                    className="pl-4 sm:pl-0 container h-16 flex flex-wrap items-center justify-between mx-auto"
                 >
                     <a href="#" 
                         className="flex items-center">
-                        <img src="/logo.png" width={40}
-                            className="h-6 mr-3 sm:h-10" alt="John Andrew Batulan Logo" />
+                        <img src="/logo.png"
+                            className="h-[40px] w-[40px] mr-3" alt="John Andrew Batulan Logo" />
                         <span 
-                            className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">John</span>
+                            className="hidden sm:inline-block self-center text-xl font-semibold whitespace-nowrap dark:text-white">John</span>
                     </a>
                     <button 
                         onClick={toggle}

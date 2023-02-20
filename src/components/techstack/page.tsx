@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 export default function TechStacks() {
     const techstacks = [
@@ -97,7 +98,7 @@ export default function TechStacks() {
         <>
             <div className="px-[50px] my-[50px]">
                 <h1 className="text-[2rem] sm:text-[3rem] text-center sm:text-left">Tech Stacks</h1>
-                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 heading-10 gap-4">
+                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 heading-10 gap-4">
                     { techstacks.map(techstack => (
                             <li key={techstack.name}>
                                 <a 
@@ -106,11 +107,12 @@ export default function TechStacks() {
                                     rel="noreferrer"
                                     className="text-yellow-600"
                                 >
-                                    <img 
+                                    <Image 
                                         src={techstack.logoUrl} 
                                         alt={techstack.name} 
                                         width={100}
-                                        className="rounded-sm"
+                                        height={100}
+                                        className="rounded-sm w-[100px] h-[100px]"
                                     />
                                 </a>
                             </li>
