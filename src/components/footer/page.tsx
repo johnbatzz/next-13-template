@@ -4,7 +4,7 @@ export default function Footer() {
         <>
             <footer  className="grid  gap-4 md:grid-cols-2 md:place-content-center w-full border-t border-white pt-5 px-[50px] mb-10">
                 <div className="leading-8 flex flex-col items-center">
-                    <h3 className="text-[1.5rem] text-center">Contact Info.</h3>
+                    <h1 className="text-[1.5rem] text-center">Contact Info.</h1>
                     <div>
                         <a 
                             href='tel:+639099300427' 
@@ -25,7 +25,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="leading-8  flex flex-col items-center">
-                    <h3 className="text-[1.5rem] text-center">Social Media Accounts</h3>
+                    <h1 className="text-[1.5rem] text-center">Social Media Accounts</h1>
                     <div>
                         <div>
                             <a 
