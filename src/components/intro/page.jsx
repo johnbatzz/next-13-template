@@ -11,7 +11,7 @@ export default function Intro() {
                         Hi,
                     </h1>
                     <h2 className='text-[1.5rem] text-yellow-600'>{`I\'m John Andrew`}</h2>
-                    <h2 className='text-[2.5rem] text-yellow-900'>Batulan</h2>
+                    <h2 className='text-[2.5rem] text-yellow-600'>Batulan</h2>
 
                     <hr/>
                     <p>
