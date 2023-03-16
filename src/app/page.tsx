@@ -5,7 +5,7 @@ import TechStacks from '@/components/techstack/page';
 
 export default function Home() {
   return (
-    <main className='container mx-auto bg-gray-900 h-full' >
+    <main className='container mx-auto bg-gray-800 h-full' >
         <Intro/>
         <AboutMe/>
         <TechStacks/>

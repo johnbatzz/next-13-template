@@ -30,7 +30,7 @@ export default function NavMobile(props: any) {
                                 leaveFrom="opacity-100 scale-100"
                                 leaveTo="opacity-0 scale-95"
                             >
-                                <Dialog.Panel className="w-full min-h-[280px] overflow-visible text-left align-middle transition-all transform bg-white rounded-md">
+                                <Dialog.Panel className="w-full min-h-[280px] overflow-visible text-left align-middle transition-all transform bg-gray-800 rounded-md">
                                 <Dialog.Title
                                     as="h3"
                                     className="w-full text-lg font-medium leading-6 text-gray-900"

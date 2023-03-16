@@ -21,7 +21,7 @@ export default function RootLayout({
       */}
       <head />
       <body 
-        className={`${roboto.className} p-0 m-0 bg-gray-800 text-white`}>
+        className={`${roboto.className} p-0 m-0 bg-gray-300 text-white`}>
           <Nav/>
           {children}
       </body>

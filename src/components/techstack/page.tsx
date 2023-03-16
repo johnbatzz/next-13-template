@@ -119,7 +119,7 @@ export default function TechStacks() {
                                         onLoadingComplete={({ naturalWidth, naturalHeight }) => {
                                             setRatio(naturalWidth / naturalHeight);
                                         }}
-                                        className="rounded-sm"
+                                        className="rounded-xl"
                                     />
                                 </a>
                             </li>
