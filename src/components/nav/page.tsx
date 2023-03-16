@@ -16,7 +16,7 @@ export function Nav(){
     return (
         <>
             <nav 
-                className="sticky shadow-xl top-0 z-40 bg-white border-black-200 dark:bg-black dark:border-black"
+                className="sticky shadow-xl top-[-1px] z-40 bg-white border-black-200 dark:bg-gray-800 dark:border-black"
             >
                 <div 
                     className="pl-4 sm:pl-0 container h-16 flex flex-wrap items-center justify-between mx-auto"

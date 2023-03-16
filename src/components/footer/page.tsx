@@ -2,7 +2,7 @@
 export default function Footer() {
     return (
         <>
-            <footer  className="grid  gap-4 md:grid-cols-2 md:place-content-center w-full border-t border-white pt-5 px-[50px] mb-10">
+            <footer  className="grid  gap-4 md:grid-cols-2 md:place-content-center w-full border-t border-white pt-5 px-[50px] pb-10">
                 <div className="leading-8 flex flex-col items-center">
                     <h1 className="text-[1.5rem] text-center">Contact Info.</h1>
                     <div>

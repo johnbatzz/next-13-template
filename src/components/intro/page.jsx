@@ -22,11 +22,11 @@ export default function Intro() {
                     </p>
                 </div>
                 <div className='relative flex justify-center items-center md:ml-[20px]'>
-                    <div className='w-[90%] sm:w-[100%] md:w-[100%] lg:w-[80%] max-w-[500px] h-[50%] ml-10 bg-yellow-600 rounded-[50%] absolute z-[-1] -rotate-45'></div>
+                    <div className='w-[90%] sm:w-[100%] md:w-[100%] lg:w-[80%] max-w-[500px] h-[50%] ml-10 bg-yellow-600 rounded-[50%] absolute -rotate-45'></div>
                     <img 
                         alt='my image'
                         src='/images/image1.webp'
-                        className='w-[400px]'
+                        className='w-[400px] z-[2]'
                     />
                 </div>  
         </div>
