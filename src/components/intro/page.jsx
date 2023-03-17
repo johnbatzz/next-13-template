@@ -22,13 +22,33 @@ export default function Intro() {
                     </p>
                 </div>
                 <div className='relative flex justify-center items-center md:ml-[20px]'>
-                    <div className='w-[90%] sm:w-[100%] md:w-[100%] lg:w-[80%] max-w-[500px] h-[50%] ml-10 bg-yellow-600 rounded-[50%] absolute -rotate-45'></div>
+                    <div className={`
+                            animate-background bg-white from-blue-500 via-red-500 to-yellow-500 bg-gradient-to-r 
+                            [animation-duration:_6s] 
+                            w-[90%] sm:w-[100%] md:w-[100%] lg:w-[80%] max-w-[500px] h-[50%] mr-2 mb-10
+                            rounded-[50%] absolute -rotate-45
+                        `}
+                    >
+                        <div className={`
+                                w-[98%] max-w-[500px] h-[98%] bg-gray-600 rounded-[50%] mx-auto
+                            `}
+                        />
+                    </div>
+                    
                     <img 
                         alt='my image'
                         src='/images/image1.webp'
                         className='w-[400px] z-[2]'
                     />
                 </div>  
+                <a
+  href="#"
+  class="animate-background inline-block rounded-lg bg-white from-pink-500 via-red-500 to-yellow-500 bg-[length:400%_400%] p-0.5 [animation-duration:_6s] hover:bg-gradient-to-r"
+>
+  <span class="block rounded-md bg-slate-900 px-5 py-3 text-xl text-white">
+    Get Started
+  </span>
+</a>
         </div>
         </>
     )
