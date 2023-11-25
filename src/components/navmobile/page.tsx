@@ -1,6 +1,6 @@
 
 import { Dialog, Transition } from '@headlessui/react'
-import { Fragment, useState } from 'react';
+import { Fragment } from 'react';
 
 export default function NavMobile(props: any) {
     const { isOpen = false, currentPage = 'home', onClose = () => {} } = props;
@@ -61,7 +61,7 @@ export default function NavMobile(props: any) {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" 
+                                                <a href="/experiences" 
                                                     onClick={() =>{onClose('exp')}}
                                                     className={`
                                                         ${currentPage === 'exp' ? 'dark:bg-gray-700 dark:text-white' : ''}

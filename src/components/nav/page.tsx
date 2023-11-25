@@ -75,7 +75,7 @@ export function Nav(){
                                 </a>
                             </li>
                             <li>
-                                <a href="#"
+                                <a href="/experiences"
                                     onClick={() => onClose('exp')}
                                     className={`
                                         ${currentPage === 'exp' ? 'md:dark:text-white' : 'dark:text-gray-400'}
